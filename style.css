@@ -2,7 +2,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #f4f0f3;
     line-height: 1.6;
     padding: 20px;
 }
@@ -10,35 +10,85 @@ body {
 /* Title section styling */
 .title h1 {
     text-align: center;
-    color: #333;
+    color: #000000;
+    font-size: 4rem;
 }
 
 /* Questions section styling */
 .questions {
-    background-color: #fff;
+    background-color: #379adc;
     margin: 20px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(110, 92, 198, 0.1);
+    text-align: center;
+    border:4px solid #f07edf;
 }
 
 .questions h4 {
-    color: #666;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
 }
 
 .questions img {
-    width: 100%; /* Make images responsive */
-    height: auto;
-    border-radius: 8px;
+    width: 25rem; /* Make images responsive */
+    height:23rem;
+    border-radius: 25px;
+    border:5px solid #e0afd9;
     margin-top: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 100px;
+    
+}
+.questions img:hover {
+    width: 25rem; /* Make images responsive */
+    height:23rem;
+    border-radius: 25px;
+    border:8px solid #fcfcfc;
+    margin-top: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 100px;
+    
 }
 
 /* Result section styling */
 .result {
-    background-color: #e2e2e2;
+    background-color: #f07edf;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
-    font-size: 1.2em;
+    font-size: 1.8em;
+    border: 3px solid #4568f6;
+}
+.resultdiv p {
+font-size: 0.8rem;
+text-align: center;
+}
+input {
+    display: none;
+}
+.result img {
+    width: 29rem; /* Make images responsive */
+    height:23rem;
+    border-radius: 25px;
+    border:5px solid #4568f6;
+    margin-top: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    color: #f4f4f4;
+    background-color: #4568f6;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15%;
+    border: 3px solid rgb(222, 37, 68);
+    margin: auto;
+    margin-left: 700px;
 }
