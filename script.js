@@ -13,6 +13,7 @@ let resultdiv = document.querySelector(".result");
 
 elsa.addEventListener("click", function () {
     question1text.value = "Let it go";
+
 });
 hakuna.addEventListener("click", function () {
     question1text.value = "Hakuna Matata";
